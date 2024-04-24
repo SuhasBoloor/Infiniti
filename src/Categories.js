@@ -9,12 +9,12 @@ function Categories(props) {
     return (
         <div >
             <div className='catContainer'>
-                <i class="fa-solid fa-chevron-left btn" onClick={handleCats} ></i>
+                <i class="fa-solid fa-chevron-left" onClick={handleCats} ></i>
                 <form>
                     <div className='searchContainer'>
 
                         <input type='text' id='searchInput' placeholder='Search Category for insights' />
-                        <i class="fa-solid fa-magnifying-glass" className='btn'></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </form>
             </div>
